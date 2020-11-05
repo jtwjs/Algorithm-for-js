@@ -27,12 +27,17 @@ for(let i=0; i<FRIENDNUM; i++) {
 
     friendWeight.forEach( x => {
         if(remain - x > 0) {
-            remain = remain - x;
+            remain -= x;
             result++;
         }
         return;
     })
-    return `탑승 제한무게: ${MAXWEIGHT}kg\n친구들: ${FRIENDNUM}명\n탑승할수있는 인원: ${result} `;
+    return `탑승 제한무게: ${MAXWEIGHT}kg\n친구들: ${FRIENDNUM}명\n탑승할수있는 인원: ${result}
+    친구1: ${friendWeight[0]}kg,
+    친구2: ${friendWeight[1]}kg, 
+    친구3: ${friendWeight[2]}kg,
+    남은무게: ${remain}kg
+    아쉽게탈락한친구: ${friendWeight[3]}kg`;
 }
 
 
