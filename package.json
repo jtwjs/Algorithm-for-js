@@ -1,0 +1,27 @@
+{
+  "name": "Algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwjs/Algorithm-for-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtwjs/Algorithm-for-js/issues"
+  },
+  "homepage": "https://github.com/jtwjs/Algorithm-for-js#readme",
+  "devDependencies": {
+    "jasmine": "^3.6.3",
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1"
+  }
+}
